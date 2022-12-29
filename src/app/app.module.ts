@@ -13,6 +13,7 @@ import { RatingStarCardsComponent } from './rating-star-cards/rating-star-cards.
 import { AwardIconComponent } from './award-icon/award-icon.component';
 import { BlogCardsComponent } from './blog-cards/blog-cards.component';
 import { GlobalAddressComponent } from './global-address/global-address.component';
+import { FooterInquerySectionComponent } from './footer-inquery-section/footer-inquery-section.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { GlobalAddressComponent } from './global-address/global-address.componen
     RatingStarCardsComponent,
     AwardIconComponent,
     BlogCardsComponent,
-    GlobalAddressComponent
+    GlobalAddressComponent,
+    FooterInquerySectionComponent
   ],
   imports: [
     BrowserModule,

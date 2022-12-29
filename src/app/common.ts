@@ -48,3 +48,10 @@ export interface GlobalPresence {
   mobileNo: string,
   gmail?: string
 }
+
+export interface FooterHrInquiry {
+  title: string,
+  gmail: string,
+  mobileNo?: string,
+  companyName?: string
+}

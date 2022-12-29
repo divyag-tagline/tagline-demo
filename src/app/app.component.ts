@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Empowerbox, ExperienceDetailsRight, GlobalPresence, OurBlogs, RatingBox, ServiceCard2, TechnologyBackEnd } from './common';
+import { Empowerbox, ExperienceDetailsRight, FooterHrInquiry, GlobalPresence, OurBlogs, RatingBox, ServiceCard2, TechnologyBackEnd } from './common';
 
 interface Headtext {
   headText: string,
@@ -73,12 +73,7 @@ interface FooterDetails {
   details: string
 }
 
-interface FooterHrInquiry {
-  title: string,
-  gmail: string,
-  mobileNo?: string,
-  companyName?: string
-}
+
 
 interface FooterHelp {
   heading?: string,

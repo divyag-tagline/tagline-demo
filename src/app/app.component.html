@@ -231,26 +231,7 @@
   </div>
   <div class="division">
     <div>
-      <div class="hr" *ngFor="let hrInquriy of footerHrInquiry">
-        <h3>{{ hrInquriy.title }}</h3>
-        <ul>
-          <li *ngIf="!hrInquriy.companyName">
-            <a href=""
-              ><i class="bi bi-telephone-fill"></i>&nbsp;
-              {{ hrInquriy.mobileNo }}</a
-            >
-          </li>
-          <li *ngIf="hrInquriy.companyName">
-            <a href="">{{ hrInquriy.companyName }} </a>
-          </li>
-          <li>
-            <a href=""
-              ><i class="bi bi-envelope-fill"></i>&nbsp;
-              {{ hrInquriy.gmail }}</a
-            >
-          </li>
-        </ul>
-      </div>
+      <app-footer-inquery-section [footerHrInquiry]="footerHrInquiry"></app-footer-inquery-section>
     </div>
     <div class="help">
       <h3>{{ footerHelp[0].heading }}</h3>
