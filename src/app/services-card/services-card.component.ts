@@ -7,7 +7,7 @@ import { ServiceCard2 } from '../common';
   styleUrls: ['./services-card.component.scss']
 })
 export class ServicesCardComponent implements OnInit {
-  @Input() services:ServiceCard2[] = [];
+  @Input() services: ServiceCard2[] = [];
   constructor() { }
 
 
