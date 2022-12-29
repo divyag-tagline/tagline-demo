@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ExperienceDetailsRight, ServiceCard2 } from './common';
+import { ExperienceDetailsRight, ServiceCard2, TechnologyBackEnd } from './common';
 
 interface Headtext {
   headText: string,
@@ -11,7 +11,7 @@ interface Headtext {
   headText5: string,
   headText6: string,
   headButton: string,
-  img  ?: string
+  img?: string
 }
 interface ServiceCard1 {
   text1: string,
@@ -28,27 +28,9 @@ interface ExperienceDetailsLeft {
   heading: string,
   details: string,
   expButton: string,
-  img ?: string
+  img?: string
 }
 
-
-
-// interface TechnologySidebar {
-//   web: string,
-//   mobile: string,
-//   desktop: string,
-//   plateform: string,
-//   database: string,
-//   bigData: string,
-//   machineLearning: string,
-//   devOps: string,
-//   clouds: string
-// }
-interface TechnologyBackEnd {
-  backEnd?: string,
-  img: string,
-  language: string,
-}
 interface ChooseTagline {
   title: string,
   details: string
@@ -125,7 +107,7 @@ interface FooterHrInquiry {
 }
 
 interface FooterHelp {
- heading ?: string,
+  heading?: string,
   title: string,
   class: string
 }
@@ -164,9 +146,9 @@ interface FooterLastPortion {
 })
 
 export class AppComponent {
-  logo : string = "../assets/images/tagline.png"
-  caseStudy: string ="Case Study" ;
-  headers : string[] = ["About Us","Hire Developer","Technology","Industry",]
+  logo: string = "../assets/images/tagline.png"
+  caseStudy: string = "Case Study";
+  headers: string[] = ["About Us", "Hire Developer", "Technology", "Industry",]
   buttonText: string = 'GET QUOTE';
   ourTechnologies: string = 'Our Technologies';
   headtext: Headtext = {
@@ -178,7 +160,7 @@ export class AppComponent {
     headText5: 'With the help of Innovation and Technology, We give you the power to',
     headText6: 'change the world with your ideas.',
     headButton: 'Schedule a meeting',
-    img:"../assets/images/images.png"
+    img: "../assets/images/images.png"
 
   }
 
@@ -188,7 +170,7 @@ export class AppComponent {
     text2: 'right offers',
     text3: ' for you.'
   }
-    serviceCard2: ServiceCard2[] = [
+  serviceCard2: ServiceCard2[] = [
     {
       img: '../assets/images/mobile.png',
       heading: 'Application Management and Modernisation',
@@ -235,7 +217,7 @@ export class AppComponent {
     successfully and on schedule, with 100% client satisfaction. We also have\
     60K+ hours of freelancing experience',
     expButton: 'Contact Us',
-    img:"../assets/images/woman.webp"
+    img: "../assets/images/woman.webp"
   }
   expProfessional: ExperienceDetailsRight[] = [{
     img: "../assets/images/contentlogo.webp",
@@ -255,7 +237,7 @@ export class AppComponent {
     heading1: 'Years of experience'
   }];
   technologySidebar: string[] =
-   ['Web', 'Mobile', 'Desktop', 'Plateform', 'Database / Data Storage', 'Big Data', 'Machine Learning', 'DevOps', 'Clouds']
+    ['Web', 'Mobile', 'Desktop', 'Plateform', 'Database / Data Storage', 'Big Data', 'Machine Learning', 'DevOps', 'Clouds']
   technologyBackEndIcon: TechnologyBackEnd[] = [{
     backEnd: 'Back End',
     img: "../assets/images/ror.png",
@@ -399,8 +381,8 @@ export class AppComponent {
     heading1: `Awards & `,
     heading2: `Recognitions`,
   }
-  awardsRecognitionsImg: string[] = 
-  ["../assets/images/award-2.webp", "../assets/images/award-3.webp", "../assets/images/award-4.webp", "../assets/images/award-5.webp", "../assets/images/award-6.webp"]
+  awardsRecognitionsImg: string[] =
+    ["../assets/images/award-2.webp", "../assets/images/award-3.webp", "../assets/images/award-4.webp", "../assets/images/award-5.webp", "../assets/images/award-6.webp"]
   ourBlogs: OurBlogs[] = [{
     title: 'Our Blogs',
     img: "../assets/images/Python-vs-Java.png",
@@ -467,7 +449,7 @@ export class AppComponent {
   }];
   footerHelp: FooterHelp[] = [
     {
-      heading : 'Help & Advice',
+      heading: 'Help & Advice',
       title: 'Career',
       class: 'bi bi-telephone-fill'
     },
@@ -488,8 +470,8 @@ export class AppComponent {
       class: 'bi bi-file-earmark-lock2-fill'
     },
     {
-      title : 'Sitemap',
-      class : 'bi bi-diagram-3-fill'
+      title: 'Sitemap',
+      class: 'bi bi-diagram-3-fill'
     }
   ]
   footerServices: string[] = [
@@ -500,7 +482,7 @@ export class AppComponent {
     'Digital Marketing'
   ]
   footerHireDevlopers: string[] = [
-    
+
     'Hire Python Developer',
     'Hire Angular Developer',
     'Hire ROR Developer',

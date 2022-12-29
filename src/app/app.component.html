@@ -2,7 +2,7 @@
   <div class="header">
     <nav>
       <ul>
-        <img [src]= "logo"/>
+        <img [src]="logo" />
         <li>
           <a href="#">{{ caseStudy }}</a>
         </li>
@@ -33,7 +33,7 @@
       {{ headtext.headText6 }}
     </p>
     <button type="button">{{ headtext.headButton }}</button>
-    <img [src]= 'headtext.img'/>
+    <img [src]='headtext.img' />
   </div>
 </div>
 
@@ -48,12 +48,12 @@
         {{ serviceCard1.text1 }} <br />
         <span style="font-weight: bolder; font-size: 60px">{{
           serviceCard1.text2
-        }}</span>
+          }}</span>
         <br />
         {{ serviceCard1.text3 }}
       </h1>
-    </div> 
-   <app-services-card style="display: contents;" [services]="serviceCard2"></app-services-card>
+    </div>
+    <app-services-card style="display: contents;" [services]="serviceCard2"></app-services-card>
     <div class="divcontent divcontent7">
       <h2>
         {{ serviceCard6.heading }}
@@ -76,9 +76,9 @@
     <img [src]='experienceDetailsLeft.img' height="490" />
   </span>
   <div class="numberexp">
-    <app-experience-card [expProfessional] = "expProfessional" ></app-experience-card>
+    <app-experience-card [expProfessional]="expProfessional"></app-experience-card>
   </div>
-  
+
 </div>
 
 <!-- ____________________________________________________________________ -->
@@ -89,7 +89,7 @@
 <span class="headerline"></span>
 <div class="row">
   <div class="menu">
-  <app-technology-sidebar [technologySidebar]="technologySidebar"></app-technology-sidebar>
+    <app-technology-sidebar [technologySidebar]="technologySidebar"></app-technology-sidebar>
   </div>
   <div class="language">
     <div class="web">
@@ -97,20 +97,10 @@
       <h2 style="margin-top: 20px; font-weight: 400">
         {{ technologyBackEndIcon[0].backEnd }}
       </h2>
-      <div class="backend">
-        <div class="ror" *ngFor="let backend of technologyBackEndIcon">
-          <img [src]="backend.img " />
-          <h5>{{ backend.language }}</h5>
-        </div>
-      </div>
+      <app-technology-back-end-icon [technologyBackEndIcon]="technologyBackEndIcon"></app-technology-back-end-icon>
 
       <h2>{{ technologyFrontEndIcon[0].backEnd }}</h2>
-      <div class="frontend">
-        <div class="react" *ngFor="let frontEnd of technologyFrontEndIcon">
-          <img [src]="frontEnd.img" />
-          <h5>{{ frontEnd.language }}</h5>
-        </div>
-      </div>
+      <app-technology-front-end-icon [technologyFrontEndIcon]="technologyFrontEndIcon"></app-technology-front-end-icon>
     </div>
   </div>
 </div>
@@ -222,16 +212,14 @@
         <p class="add-city">
           {{ global.address }}
         </p>
-        <a href="tel:+91 99138 08285" class="contact mobile-no"
-          ><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp;
+        <a href="tel:+91 99138 08285" class="contact mobile-no"><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp;
           {{ global.mobileNo }}
         </a>
       </div>
 
       <div class="place">
-        <a href="mailto:solutions@taglineinfotech.com" class="mail"
-          ><i class="bi bi-envelope-fill"></i>{{ globalPresence[2].gmail }}</a
-        >
+        <a href="mailto:solutions@taglineinfotech.com" class="mail"><i class="bi bi-envelope-fill"></i>{{
+          globalPresence[2].gmail }}</a>
       </div>
     </div>
   </div>
@@ -259,9 +247,7 @@
       </p>
     </div>
     <div class="cont2">
-      <input type="text" placeholder="Email" /><span
-        ><button>{{ footerDetails.footerButton }}</button></span
-      >
+      <input type="text" placeholder="Email" /><span><button>{{ footerDetails.footerButton }}</button></span>
       <p>{{ footerDetails.details }}</p>
     </div>
   </div>
@@ -271,19 +257,15 @@
         <h3>{{ hrInquriy.title }}</h3>
         <ul>
           <li *ngIf="!hrInquriy.companyName">
-            <a href=""
-              ><i class="bi bi-telephone-fill"></i>&nbsp;
-              {{ hrInquriy.mobileNo }}</a
-            >
+            <a href=""><i class="bi bi-telephone-fill"></i>&nbsp;
+              {{ hrInquriy.mobileNo }}</a>
           </li>
           <li *ngIf="hrInquriy.companyName">
             <a href="">{{ hrInquriy.companyName }} </a>
           </li>
           <li>
-            <a href=""
-              ><i class="bi bi-envelope-fill"></i>&nbsp;
-              {{ hrInquriy.gmail }}</a
-            >
+            <a href=""><i class="bi bi-envelope-fill"></i>&nbsp;
+              {{ hrInquriy.gmail }}</a>
           </li>
         </ul>
       </div>
@@ -292,8 +274,7 @@
       <h3>{{ footerHelp[0].heading }}</h3>
       <ul>
         <li *ngFor="let help of footerHelp">
-          <a href=""
-            >
+          <a href="">
             <i [ngClass]="help.class"></i>&nbsp;
             {{ help.title }}
           </a>
@@ -321,8 +302,8 @@
   <div class="lastfooterdiv">
     <img [src]=" footerLastPortion.img " />
     <div>
-      <a href="" style="text-decoration: none; color: gray; font-size: 17px"
-        >{{ footerLastPortion.followUs }} <i class="bi bi-facebook"></i>
+      <a href="" style="text-decoration: none; color: gray; font-size: 17px">{{ footerLastPortion.followUs }} <i
+          class="bi bi-facebook"></i>
         <i class="bi bi-linkedin"></i>
         <i class="bi bi-twitter"></i>
         <i class="bi bi-instagram"></i>
@@ -331,11 +312,10 @@
     </div>
     <p>
       {{ footerLastPortion.portion1
-      }}<span style="color: #d66f37" > {{ footerLastPortion.portion2 }}</span
-      >  {{ footerLastPortion.portion3 }}
+      }}<span style="color: #d66f37"> {{ footerLastPortion.portion2 }}</span> {{ footerLastPortion.portion3 }}
       <a href="" style="text-decoration: none; color: #d66f37">{{
         footerLastPortion.portion4
-      }}</a>
+        }}</a>
     </p>
   </div>
 </div>
