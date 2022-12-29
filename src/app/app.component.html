@@ -231,23 +231,27 @@
   </div>
   <div class="division">
     <div>
-      <app-footer-inquery-section [footerHrInquiry]="footerHrInquiry"></app-footer-inquery-section>
+      <app-footer-inquery-section
+        [footerHrInquiry]="footerHrInquiry"
+      ></app-footer-inquery-section>
     </div>
     <div class="help">
       <h3>{{ footerHelp[0].heading }}</h3>
-      <app-footer-help-section [footerHelp]="footerHelp"></app-footer-help-section>
+      <app-footer-help-section
+        [footerHelp]="footerHelp"
+      ></app-footer-help-section>
     </div>
     <div class="service">
       <h3>Services</h3>
-      <app-footer-services-section [footerServices]="footerServices"></app-footer-services-section>
+      <app-footer-services-section
+        [footerServices]="footerServices"
+      ></app-footer-services-section>
     </div>
     <div class="hire">
       <h3>Hire Developers</h3>
-      <ul>
-        <li *ngFor="let hire of footerHireDevlopers">
-          <a href="">{{ hire }}</a>
-        </li>
-      </ul>
+      <app-footer-hire-devloper-section
+        [footerHireDevlopers]="footerHireDevlopers"
+      ></app-footer-hire-devloper-section>
     </div>
   </div>
 

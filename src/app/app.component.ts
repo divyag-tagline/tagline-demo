@@ -432,7 +432,6 @@ export class AppComponent {
     'Digital Marketing'
   ]
   footerHireDevlopers: string[] = [
-
     'Hire Python Developer',
     'Hire Angular Developer',
     'Hire ROR Developer',

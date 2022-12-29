@@ -16,6 +16,7 @@ import { GlobalAddressComponent } from './global-address/global-address.componen
 import { FooterInquerySectionComponent } from './footer-inquery-section/footer-inquery-section.component';
 import { FooterHelpSectionComponent } from './footer-help-section/footer-help-section.component';
 import { FooterServicesSectionComponent } from './footer-services-section/footer-services-section.component';
+import { FooterHireDevloperSectionComponent } from './footer-hire-devloper-section/footer-hire-devloper-section.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FooterServicesSectionComponent } from './footer-services-section/footer
     GlobalAddressComponent,
     FooterInquerySectionComponent,
     FooterHelpSectionComponent,
-    FooterServicesSectionComponent
+    FooterServicesSectionComponent,
+    FooterHireDevloperSectionComponent
   ],
   imports: [
     BrowserModule,
