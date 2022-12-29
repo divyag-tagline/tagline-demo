@@ -239,11 +239,7 @@
     </div>
     <div class="service">
       <h3>Services</h3>
-      <ul>
-        <li *ngFor="let service of footerServices">
-          <a href="">{{ service }}</a>
-        </li>
-      </ul>
+      <app-footer-services-section [footerServices]="footerServices"></app-footer-services-section>
     </div>
     <div class="hire">
       <h3>Hire Developers</h3>

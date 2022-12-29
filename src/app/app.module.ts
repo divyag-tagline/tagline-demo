@@ -15,6 +15,7 @@ import { BlogCardsComponent } from './blog-cards/blog-cards.component';
 import { GlobalAddressComponent } from './global-address/global-address.component';
 import { FooterInquerySectionComponent } from './footer-inquery-section/footer-inquery-section.component';
 import { FooterHelpSectionComponent } from './footer-help-section/footer-help-section.component';
+import { FooterServicesSectionComponent } from './footer-services-section/footer-services-section.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterHelpSectionComponent } from './footer-help-section/footer-help-se
     BlogCardsComponent,
     GlobalAddressComponent,
     FooterInquerySectionComponent,
-    FooterHelpSectionComponent
+    FooterHelpSectionComponent,
+    FooterServicesSectionComponent
   ],
   imports: [
     BrowserModule,
