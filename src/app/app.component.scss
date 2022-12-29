@@ -17,7 +17,7 @@ ul {
     position: sticky;
 }
 
-.header{
+.header {
     position: fixed;
     z-index: 9999;
     left: 0;
@@ -25,7 +25,7 @@ ul {
     right: 0;
     flex-wrap: wrap;
     background-color: white;
-    
+
 }
 
 .header nav img {
@@ -137,13 +137,13 @@ nav ul button:hover {
     margin-top: 50px;
 }
 
-.services .headerline{
+.services .headerline {
     display: flex;
     justify-content: center;
     width: 175px;
     margin: auto;
     height: 2px;
-    background: radial-gradient(50% 151250% at 50% -100%,#d96122 0%,rgba(255,255,255,0) 100%);
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .boxes {
@@ -287,12 +287,13 @@ nav ul button:hover {
     border: 2px solid #D96122;
 }
 
-.experience span{
+.experience span {
     z-index: 10;
     position: absolute;
-    margin-left:43%;
+    margin-left: 43%;
     margin-top: 78px;
 }
+
 .experience .numberexp {
     background: linear-gradient(to left, #eb8f5e, #ffffffc8);
     width: 50%;
@@ -370,7 +371,7 @@ nav ul button:hover {
 
 .row .menu {
     width: 25%;
-    box-shadow: 5px 0 #d66f37,0 0 10px rgb(168, 167, 167);
+    box-shadow: 5px 0 #d66f37, 0 0 10px rgb(168, 167, 167);
 
 }
 
@@ -417,7 +418,8 @@ li:hover {
 
 .row .language {
     width: 50%;
-    box-shadow: 0 0 10px rgb(168, 167, 167);;
+    box-shadow: 0 0 10px rgb(168, 167, 167);
+    ;
     padding: 40px;
 }
 
@@ -462,22 +464,22 @@ li:hover {
 
 /* __________________________________________________________________ */
 
-.taglinewhyhead{
+.taglinewhyhead {
     text-align: center;
     margin-top: 60px;
 }
 
-.headerline{
+.headerline {
     display: flex;
     justify-content: center;
     width: 250px;
     margin: auto;
     margin-top: 20px;
     height: 2px;
-    background: radial-gradient(50% 151250% at 50% -100%,#d96122 0%,rgba(255,255,255,0) 100%);
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-.taglinewhyp{
+.taglinewhyp {
     text-align: center;
     margin: 30px 25%;
     line-height: 30px;
@@ -485,40 +487,41 @@ li:hover {
     font-size: 19px;
 }
 
-.empowers{
+.empowers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 35px 70px;
 }
 
-.empowers .empowerbox{
+.empowers .empowerbox {
     max-width: 28%;
     border: 1px solid #929292;
     padding: 35px;
 }
 
-.empowers .empowerbox .imgnumflex{
+.empowers .empowerbox .imgnumflex {
     display: flex;
     justify-content: space-between;
 }
 
-.empowers .empowerbox .imgnumflex h1{
+.empowers .empowerbox .imgnumflex h1 {
     color: #D96122;
     opacity: 0.3;
     font-size: 50px;
 }
 
-.empowers .empowerbox img{
+.empowers .empowerbox img {
     margin: 10px;
-}
-.empowers .empowerbox h5{
-    color: #D96122;
-    margin: 10px;
-    font-weight:700;
 }
 
-.empowers .empowerbox p{
+.empowers .empowerbox h5 {
+    color: #D96122;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.empowers .empowerbox p {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -527,51 +530,52 @@ li:hover {
 
 }
 
-.empowerbox:first-child{
+.empowerbox:first-child {
     border-top: none;
     border-left: none;
 }
-.empowerbox:nth-child(2){
+
+.empowerbox:nth-child(2) {
     border-top: none;
 }
 
-.empowerbox:nth-child(3){
+.empowerbox:nth-child(3) {
     border-top: none;
     border-right: none;
 }
 
-.empowerbox:nth-child(4){
+.empowerbox:nth-child(4) {
     border-bottom: none;
     border-left: none;
 }
 
-.empowerbox:nth-child(5){
+.empowerbox:nth-child(5) {
     border-bottom: none;
 }
 
-.empowerbox:nth-child(6){
+.empowerbox:nth-child(6) {
     border-bottom: none;
     border-right: none;
 }
 
-.empowers .lastempowerbox h1{
+.empowers .lastempowerbox h1 {
     font-size: 25px;
     text-align: center;
     margin-top: 70px;
 }
 
-.empowers .lastempowerbox span{
+.empowers .lastempowerbox span {
     color: #D96122;
 }
 
-.empowers .lastempowerbox button{
+.empowers .lastempowerbox button {
     background: #d96122;
     font-weight: 500;
-    font-size:16px;
+    font-size: 16px;
     color: white;
     border-radius: 5px;
     padding: 17px;
-    border:1px solid #d96122;
+    border: 1px solid #d96122;
     cursor: pointer;
     display: block;
     margin: auto;
@@ -582,19 +586,19 @@ li:hover {
 /* ______________________________________________ */
 
 
-.reviews{
+.reviews {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
 }
 
-.reviews .reviewword{
-    max-width: 25%; 
+.reviews .reviewword {
+    max-width: 25%;
     margin-left: 140px;
 
 }
 
-.reviews .reviewword h1{
+.reviews .reviewword h1 {
     font-weight: 600;
     font-size: 31px;
     color: #242424;
@@ -602,53 +606,53 @@ li:hover {
     line-height: 40px;
 }
 
-.reviews .reviewword p{
+.reviews .reviewword p {
     padding-top: 20px;
     font-size: 19px;
     color: #404040;
     line-height: 30px;
 }
 
-.reviews .reviewsboxes{
+.reviews .reviewsboxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     /* max-width: 63%; */
 }
 
-.reviews .reviewsboxes .revbox{
+.reviews .reviewsboxes .revbox {
     box-shadow: 0 3px 8px rgb(0 0 0 / 8%);
     margin: 12px;
     max-width: 25%;
 }
 
-.reviews .reviewsboxes .revbox p{
+.reviews .reviewsboxes .revbox p {
     font-size: 15px;
     margin: 6px 12px;
     line-height: 17px;
     margin-bottom: 40px;
 }
 
-.reviews .reviewsboxes .revbox small{
+.reviews .reviewsboxes .revbox small {
     font-size: 13px;
     margin: 12px;
     padding-top: 34px;
 }
 
-.reviews .reviewsboxes .revbox .rating{
+.reviews .reviewsboxes .revbox .rating {
     display: flex;
 }
 
-.reviews .reviewsboxes .revbox .rating h3{
+.reviews .reviewsboxes .revbox .rating h3 {
     margin: 12px;
 }
 
-.reviews .reviewsboxes .revbox .rating .icon{
+.reviews .reviewsboxes .revbox .rating .icon {
     margin: 12px;
     color: red;
 }
 
-.reviews .reviewsboxes .revbox .verified{
+.reviews .reviewsboxes .revbox .verified {
     display: flex;
     color: #585656;
     font-size: 14px;
@@ -656,7 +660,7 @@ li:hover {
     margin-top: 3px;
 }
 
-.reviews .reviewsboxes .revbox .verified p{
+.reviews .reviewsboxes .revbox .verified p {
     margin: 3px;
 }
 
@@ -664,24 +668,25 @@ li:hover {
 
 /* ______________________________________________ */
 
-.awards{
+.awards {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(119.18deg,rgba(217,97,34,.5) 0%,rgba(217,97,34,.2) 50%);
+    background: linear-gradient(119.18deg, rgba(217, 97, 34, .5) 0%, rgba(217, 97, 34, .2) 50%);
     box-shadow: 0 0 25px rgb(0 0 0 / 10%);
     margin: 70px 0;
 }
 
-.awards h1{
+.awards h1 {
     min-width: 20%;
     flex-wrap: wrap;
 }
 
-.awards .awardimage img{
-    
+.awards .awardimage img {
+
     margin: 20px;
 }
+
 /* .award .awardhead h1{
     text-align: center;
     max-width: 20%;
@@ -875,30 +880,32 @@ textarea {
     padding: 0 11%;
 }
 
-.footer .firstfooter .cont1 p{
+.footer .firstfooter .cont1 p {
     font-size: 20px;
-    padding:20px 0;
+    padding: 20px 0;
     padding-left: 11%;
 }
 
-.footer .firstfooter .cont2{
+.footer .firstfooter .cont2 {
     min-width: 40%;
     justify-content: flex-end;
 }
-.footer .firstfooter .cont2 input{
+
+.footer .firstfooter .cont2 input {
     width: 60%;
     padding: 15px;
-    outline:none;
+    outline: none;
     border: 1px solid rgb(191, 188, 188);
 }
-.footer .firstfooter .cont2 button{
+
+.footer .firstfooter .cont2 button {
     background-color: #D96122;
     color: white;
     border: none;
     padding: 16px;
 }
 
-.footer .firstfooter .cont2 p{
+.footer .firstfooter .cont2 p {
     padding-top: 18px;
     font-size: 17px;
     font-weight: 600;

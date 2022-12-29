@@ -162,9 +162,10 @@
     {{ awardsRecognitions.heading2 }}
   </h1>
   <!-- </div> -->
-  <div class="awardimage" *ngFor="let image of awardsRecognitionsImg">
-    <img [src]="image" height="160" width="160" />
-  </div>
+  <app-award-icon
+    [awardsRecognitionsImg]="awardsRecognitionsImg"
+    style="display: flex"
+  ></app-award-icon>
 </div>
 
 <!-- ____________________________________________________________________ -->

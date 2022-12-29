@@ -10,6 +10,7 @@ import { TechnologyBackEndIconComponent } from './technology-back-end-icon/techn
 import { TechnologyFrontEndIconComponent } from './technology-front-end-icon/technology-front-end-icon.component';
 import { BoxCardsChooseTaglineComponent } from './box-cards-choose-tagline/box-cards-choose-tagline.component';
 import { RatingStarCardsComponent } from './rating-star-cards/rating-star-cards.component';
+import { AwardIconComponent } from './award-icon/award-icon.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RatingStarCardsComponent } from './rating-star-cards/rating-star-cards.
     TechnologyBackEndIconComponent,
     TechnologyFrontEndIconComponent,
     BoxCardsChooseTaglineComponent,
-    RatingStarCardsComponent
+    RatingStarCardsComponent,
+    AwardIconComponent
   ],
   imports: [
     BrowserModule,
