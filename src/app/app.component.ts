@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { Empowerbox, ExperienceDetailsRight, FooterHrInquiry, GlobalPresence, OurBlogs, RatingBox, ServiceCard2, TechnologyBackEnd } from './common';
+import { Empowerbox, ExperienceDetailsRight, FooterHelp, FooterHrInquiry, GlobalPresence, OurBlogs, RatingBox, ServiceCard2, TechnologyBackEnd } from './common';
 
 interface Headtext {
   headText: string,
@@ -23,21 +22,16 @@ interface ServiceCard3 {
   span: string,
   buttonText: string
 }
-
 interface ExperienceDetailsLeft {
   heading: string,
   details: string,
   expButton: string,
   img?: string
 }
-
 interface ChooseTagline {
   title: string,
   details: string
 }
-
-
-
 interface Empowerbox1 {
   empower: string,
   your: string,
@@ -50,9 +44,6 @@ interface OurClientele {
   detail1: string,
   details2: string
 }
-
-
-
 interface AwardsRecognitions {
   heading1?: string,
   heading2?: string,
@@ -73,14 +64,6 @@ interface FooterDetails {
   details: string
 }
 
-
-
-interface FooterHelp {
-  heading?: string,
-  title: string,
-  class: string
-}
-
 interface FooterServices {
   title: string,
   mobile: string,
@@ -89,7 +72,6 @@ interface FooterServices {
   uiUxDesign: string,
   digitalMarketing: string
 }
-
 interface FooterHireDevlopers {
   title: string,
   python: string,
@@ -99,7 +81,6 @@ interface FooterHireDevlopers {
   reactJs: string,
   reactNative: string
 }
-
 interface FooterLastPortion {
   img: string,
   followUs: string,

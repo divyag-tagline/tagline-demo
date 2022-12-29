@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let help of footerHelp">
+    <a href="">
+      <i [ngClass]="help.class"></i>&nbsp;
+      {{ help.title }}
+    </a>
+  </li>
+</ul>

@@ -235,14 +235,7 @@
     </div>
     <div class="help">
       <h3>{{ footerHelp[0].heading }}</h3>
-      <ul>
-        <li *ngFor="let help of footerHelp">
-          <a href="">
-            <i [ngClass]="help.class"></i>&nbsp;
-            {{ help.title }}
-          </a>
-        </li>
-      </ul>
+      <app-footer-help-section [footerHelp]="footerHelp"></app-footer-help-section>
     </div>
     <div class="service">
       <h3>Services</h3>

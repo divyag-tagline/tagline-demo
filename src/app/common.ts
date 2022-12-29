@@ -55,3 +55,9 @@ export interface FooterHrInquiry {
   mobileNo?: string,
   companyName?: string
 }
+
+export interface FooterHelp {
+  heading?: string,
+  title: string,
+  class: string
+}

@@ -14,6 +14,7 @@ import { AwardIconComponent } from './award-icon/award-icon.component';
 import { BlogCardsComponent } from './blog-cards/blog-cards.component';
 import { GlobalAddressComponent } from './global-address/global-address.component';
 import { FooterInquerySectionComponent } from './footer-inquery-section/footer-inquery-section.component';
+import { FooterHelpSectionComponent } from './footer-help-section/footer-help-section.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterInquerySectionComponent } from './footer-inquery-section/footer-i
     AwardIconComponent,
     BlogCardsComponent,
     GlobalAddressComponent,
-    FooterInquerySectionComponent
+    FooterInquerySectionComponent,
+    FooterHelpSectionComponent
   ],
   imports: [
     BrowserModule,
