@@ -294,34 +294,34 @@ export class AppComponent {
     and stories about partnering with us before making your own decision.`
   }
   ratingStars: RatingBox[] = [{
-    heading: 4.1,
+    heading: 4,
     detail1: `"Everything always turns out perfectly done."`,
     detail2: 'IT & Computer Scientist, Self-Employed',
     review: 'Verified Review'
   }, {
-    heading: 3.2,
+    heading: 3,
     detail1: `"They understand complex technical requirements, and they have a team
     that quickly gets up to speed."`,
     detail2: 'Founder, Cimpro.io',
     review: 'Verified Review'
   }, {
-    heading: 2.2,
+    heading: 2,
     detail1: `"…they’re able to tackle pretty much everything you throw at them."`,
     detail2: 'CEO, Promoprep',
     review: 'Verified Review'
   }, {
-    heading: 2.5,
+    heading: 2,
     detail1: `“When things go wrong, they were good at adapting and problem solving on
     the fly.”`,
     detail2: 'CEO, SupplementSnoop',
     review: 'Verified Review'
   }, {
-    heading: 1.5,
+    heading: 1,
     detail1: ` "The team takes up new challenges and finishes the project on time."`,
     detail2: 'Software Architect, Specialty Finance Company',
     review: 'Verified Review'
   }, {
-    heading: 3.5,
+    heading: 3,
     detail1: ` "We are getting close to launch now and it's been a tremendous help to
     have their developers on my team."`,
     detail2: 'Owner, e-Commerce Support Company',
