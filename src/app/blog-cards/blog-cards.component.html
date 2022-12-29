@@ -1,0 +1,12 @@
+<div class="blog" *ngFor="let blog of ourBlogs">
+  <img [src]="blog.img" />
+  <div style="display: flex; justify-content: space-between">
+    <button>{{ blog.blogButton }}</button>
+    <p>{{ blog.blogDate }}</p>
+  </div>
+  <h3>{{ blog.heading }}</h3>
+  <p>
+    {{ blog.heading1 }}
+  </p>
+  <a href="#">{{ blog.readMore }}</a>
+</div>

@@ -174,18 +174,7 @@
   <h1>{{ ourBlogs[0].title }}</h1>
   <span class="headerline"></span>
   <div class="bloggers">
-    <div class="blog" *ngFor="let blog of ourBlogs">
-      <img [src]="blog.img" />
-      <div style="display: flex; justify-content: space-between">
-        <button>{{ blog.blogButton }}</button>
-        <p>{{ blog.blogDate }}</p>
-      </div>
-      <h3>{{ blog.heading }}</h3>
-      <p>
-        {{ blog.heading1 }}
-      </p>
-      <a href="#">{{ blog.readMore }}</a>
-    </div>
+    <app-blog-cards [ourBlogs]="ourBlogs" style="display: contents;"></app-blog-cards>
   </div>
 </div>
 

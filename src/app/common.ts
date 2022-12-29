@@ -30,3 +30,13 @@ export interface RatingBox {
   detail2: string,
   review: string,
 }
+
+export interface OurBlogs {
+  title?: string,
+  img: string,
+  blogButton: string,
+  blogDate: string,
+  heading: string,
+  heading1: string,
+  readMore: string
+}
