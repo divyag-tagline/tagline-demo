@@ -89,11 +89,7 @@
 <span class="headerline"></span>
 <div class="row">
   <div class="menu">
-    <ul>
-      <li class="active" *ngFor="let tSidebar of technologySidebar">
-        <a href="">{{ tSidebar }}</a>
-      </li>
-    </ul>
+  <app-technology-sidebar [technologySidebar]="technologySidebar"></app-technology-sidebar>
   </div>
   <div class="language">
     <div class="web">
