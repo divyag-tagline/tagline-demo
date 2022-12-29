@@ -1,0 +1,22 @@
+<div class="reviewsboxes">
+  <div class="revbox" *ngFor="let ratingStar of ratingStars">
+    <div class="rating">
+      <h3>{{ ratingStar.heading }}</h3>
+      <div class="icon">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+      </div>
+    </div>
+
+    <p>{{ ratingStar.detail1 }}</p>
+    <small>{{ ratingStar.detail2 }}</small>
+
+    <div class="verified">
+      <i class="bi bi-patch-check-fill"></i>&nbsp;
+      <p>{{ ratingStar.review }}</p>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Empowerbox, ExperienceDetailsRight, ServiceCard2, TechnologyBackEnd } from './common';
+import { Empowerbox, ExperienceDetailsRight, RatingBox, ServiceCard2, TechnologyBackEnd } from './common';
 
 interface Headtext {
   headText: string,
@@ -51,12 +51,7 @@ interface OurClientele {
   details2: string
 }
 
-interface RatingBox {
-  heading: number,
-  detail1: string,
-  detail2: string,
-  review: string,
-}
+
 
 interface AwardsRecognitions {
   heading1?: string,

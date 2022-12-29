@@ -23,3 +23,10 @@ export interface Empowerbox {
   heading1: string,
   detail: string
 }
+
+export interface RatingBox {
+  heading: number,
+  detail1: string,
+  detail2: string,
+  review: string,
+}
