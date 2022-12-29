@@ -75,16 +75,10 @@
   <span>
     <img [src]='experienceDetailsLeft.img' height="490" />
   </span>
-
   <div class="numberexp">
-    <div class="fulldiv1">
-      <div class="div1" *ngFor="let expProf of expProfessional">
-        <img [src]=" expProf.img " />
-        <h1>{{ expProf.heading }}</h1>
-        <h5>{{ expProf.heading1 }}</h5>
-      </div>
-    </div>
+    <app-experience-card [expProfessional] = "expProfessional" ></app-experience-card>
   </div>
+  
 </div>
 
 <!-- ____________________________________________________________________ -->

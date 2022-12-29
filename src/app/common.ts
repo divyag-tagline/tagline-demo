@@ -4,3 +4,9 @@ export interface ServiceCard2 {
     description: string,
     learMore: string
   }
+
+export  interface ExperienceDetailsRight {
+    img: string,
+    heading: string,
+    heading1: string
+  }

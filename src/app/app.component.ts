@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ServiceCard2 } from './common';
+import { ExperienceDetailsRight, ServiceCard2 } from './common';
 
 interface Headtext {
   headText: string,
@@ -31,11 +31,7 @@ interface ExperienceDetailsLeft {
   img ?: string
 }
 
-interface ExperienceDetailsRight {
-  img: string,
-  heading: string,
-  heading1: string
-}
+
 
 // interface TechnologySidebar {
 //   web: string,
