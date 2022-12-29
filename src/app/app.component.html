@@ -174,7 +174,10 @@
   <h1>{{ ourBlogs[0].title }}</h1>
   <span class="headerline"></span>
   <div class="bloggers">
-    <app-blog-cards [ourBlogs]="ourBlogs" style="display: contents;"></app-blog-cards>
+    <app-blog-cards
+      [ourBlogs]="ourBlogs"
+      style="display: contents"
+    ></app-blog-cards>
   </div>
 </div>
 
@@ -185,16 +188,9 @@
     <div class="address">
       <h4>{{ globalPresence[0].title }}</h4>
 
-      <div class="place" *ngFor="let global of globalPresence">
-        <h6>{{ global.countryName }}</h6>
-        <p class="add-city">
-          {{ global.address }}
-        </p>
-        <a href="tel:+91 99138 08285" class="contact mobile-no"
-          ><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp;
-          {{ global.mobileNo }}
-        </a>
-      </div>
+      <app-global-address
+        [globalPresence]="globalPresence"
+      ></app-global-address>
 
       <div class="place">
         <a href="mailto:solutions@taglineinfotech.com" class="mail"

@@ -40,3 +40,11 @@ export interface OurBlogs {
   heading1: string,
   readMore: string
 }
+
+export interface GlobalPresence {
+  title?: string,
+  countryName: string,
+  address: string,
+  mobileNo: string,
+  gmail?: string
+}

@@ -12,6 +12,7 @@ import { BoxCardsChooseTaglineComponent } from './box-cards-choose-tagline/box-c
 import { RatingStarCardsComponent } from './rating-star-cards/rating-star-cards.component';
 import { AwardIconComponent } from './award-icon/award-icon.component';
 import { BlogCardsComponent } from './blog-cards/blog-cards.component';
+import { GlobalAddressComponent } from './global-address/global-address.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BlogCardsComponent } from './blog-cards/blog-cards.component';
     BoxCardsChooseTaglineComponent,
     RatingStarCardsComponent,
     AwardIconComponent,
-    BlogCardsComponent
+    BlogCardsComponent,
+    GlobalAddressComponent
   ],
   imports: [
     BrowserModule,
