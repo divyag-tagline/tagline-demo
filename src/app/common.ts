@@ -16,3 +16,10 @@ export interface TechnologyBackEnd {
   img: string,
   language: string,
 }
+
+export interface Empowerbox {
+  img: string,
+  heading: string,
+  heading1: string,
+  detail: string
+}

@@ -1,0 +1,8 @@
+<div class="empowerbox" *ngFor="let boxCard of boxCards">
+  <div class="imgnumflex">
+    <img [src]="boxCard.img" />
+    <h1>{{ boxCard.heading }}</h1>
+  </div>
+  <h5>{{ boxCard.heading1 }}</h5>
+  <p>{{ boxCard.detail }}</p>
+</div>

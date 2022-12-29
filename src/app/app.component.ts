@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ExperienceDetailsRight, ServiceCard2, TechnologyBackEnd } from './common';
+import { Empowerbox, ExperienceDetailsRight, ServiceCard2, TechnologyBackEnd } from './common';
 
 interface Headtext {
   headText: string,
@@ -36,12 +36,7 @@ interface ChooseTagline {
   details: string
 }
 
-interface Empowerbox {
-  img: string,
-  heading: string,
-  heading1: string,
-  detail: string
-}
+
 
 interface Empowerbox1 {
   empower: string,

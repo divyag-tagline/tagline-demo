@@ -8,6 +8,7 @@ import { ExperienceCardComponent } from './experience-card/experience-card.compo
 import { TechnologySidebarComponent } from './technology-sidebar/technology-sidebar.component';
 import { TechnologyBackEndIconComponent } from './technology-back-end-icon/technology-back-end-icon.component';
 import { TechnologyFrontEndIconComponent } from './technology-front-end-icon/technology-front-end-icon.component';
+import { BoxCardsChooseTaglineComponent } from './box-cards-choose-tagline/box-cards-choose-tagline.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TechnologyFrontEndIconComponent } from './technology-front-end-icon/tec
     ExperienceCardComponent,
     TechnologySidebarComponent,
     TechnologyBackEndIconComponent,
-    TechnologyFrontEndIconComponent
+    TechnologyFrontEndIconComponent,
+    BoxCardsChooseTaglineComponent
   ],
   imports: [
     BrowserModule,
